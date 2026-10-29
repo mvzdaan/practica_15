@@ -92,7 +92,7 @@ h1 { font-size: clamp(38px, 6vw, 70px); line-height: 1.15; color: var(--oro); te
   color: #1a1020; background: var(--oro); text-decoration: none; font-weight: bold;
   border-radius: 3px; transition: .25s;
 }
-.boton:hover { background: #fff0c9; box-shadow: 0 0 18px #ffbd59; transform: translateY(-2px); }
+.boton:hover { background: #fff1c9; box-shadow: 0 0 18px #ffbd59; transform: translateY(-2px); }
 
 /* Menú */
 nav {
