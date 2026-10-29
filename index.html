@@ -93,6 +93,26 @@
             <span>✿</span>
         </div>
 
+        <style>
+@keyframes vuela {
+  0% { transform: translateX(-100px); }
+  100% { transform: translateX(100vw); }
+}
+.murcielago {
+  position: fixed;
+  top: 20px;
+  font-size: 6rem;
+  animation: vuela 15s linear infinite;
+  z-index: 999;
+  pointer-events: none;
+}
+</style>
+
+<div class="murcielago">🦇</div>
+
+</head>
+
+
         <h1>La Catrina</h1>
         <p class="subtitulo">Tradición · Elegancia · Memoria</p>
 
